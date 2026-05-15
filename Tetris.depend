@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1778634911 source:c:\users\administrator\desktop\prog\tetris\main.c
+1778818805 source:c:\users\administrator\desktop\prog\tetris\main.c
 	<stdio.h>
 	<stdlib.h>
 	"GBT/gbt.h"
+	"fuentes.h"
 
 1776646998 c:\users\administrator\desktop\prog\tetris\include\gbt\gbt.h
 	"gbt_entrada.h"
@@ -25,4 +26,11 @@
 1776646998 c:\users\administrator\desktop\prog\tetris\include\gbt\gbt_vector.h
 	<stdlib.h>
 	<stdint.h>
+
+1778810291 c:\users\administrator\desktop\prog\tetris\fuentes.h
+	<stdint.h>
+	"GBT/gbt.h"
+
+1778819020 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
+	"fuentes.h"
 
