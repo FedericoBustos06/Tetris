@@ -32,6 +32,9 @@ int main(int argc, char* argv[])
     uint8_t opcion_seleccionada = 0;
     uint8_t menu = 0;
 
+    char nombreJugador[16] = "";
+    uint16_t indiceLetra= 0;
+
     gbt_iniciar();
 
     if (argc == 3) {
@@ -83,7 +86,7 @@ int main(int argc, char* argv[])
                     corriendo = 0;
                 }
             }
-            dibujar_texto_8x16("Encastre",((anchoVentana/2)-30),50,12);
+            dibujar_texto_8x16("TETRIS",((anchoVentana/2)-30),50,12);
             for(int x=(anchoVentana)/2 - 50; x<((anchoVentana/2)+50); x++)
             {
                 for(int y=80;y< 104;y++){
@@ -100,9 +103,30 @@ int main(int argc, char* argv[])
             }
             dibujar_texto("Salir",((anchoVentana/2)-30),122,12);
         }
-        if(menu==1){
-            gbt_borrar_backbuffer(0);
+        else if(menu==1){
+            dibujar_texto("Ingrese su nombre",((anchoVentana/2)-80),40,12);
+
+            if ((tecla >= GBTK_a && tecla <= GBTK_z || tecla >= GBTK_0 && tecla <= GBTK_9) && indiceLetra < 15)
+            {
+                nombreJugador[indiceLetra] = (char)tecla;
+                indiceLetra++;
+            }
+            if(tecla == GBTK_RETROCESO)
+            {
+                indiceLetra--;
+                nombreJugador[indiceLetra] = '\0';
+            }
+            if(nombreJugador!="" &&(tecla == GBTK_ENTER))
+            {
+                menu++;
+            }
+
+            dibujar_texto(nombreJugador, ((anchoVentana/2)-80), 88, 11);
         }
+        else if(menu==2){
+
+        }
+
 
         gbt_volcar_backbuffer();
         gbt_esperar(16);

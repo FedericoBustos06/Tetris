@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1778818805 source:c:\users\administrator\desktop\prog\tetris\main.c
+1778883716 source:c:\users\administrator\desktop\prog\tetris\main.c
 	<stdio.h>
 	<stdlib.h>
 	"GBT/gbt.h"
@@ -31,6 +31,6 @@
 	<stdint.h>
 	"GBT/gbt.h"
 
-1778819020 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
+1778819101 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
 	"fuentes.h"
 
