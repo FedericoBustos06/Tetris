@@ -37,6 +37,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="dibujos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dibujos.h" />
 		<Unit filename="fuentes.c">
 			<Option compilerVar="CC" />
 		</Unit>
