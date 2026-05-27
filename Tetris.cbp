@@ -37,10 +37,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="config.h" />
 		<Unit filename="dibujos.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="dibujos.h" />
+		<Unit filename="estadisticas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="estadisticas.h" />
 		<Unit filename="fuentes.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -48,6 +56,14 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="pieza.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pieza.h" />
+		<Unit filename="tablero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tablero.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

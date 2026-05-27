@@ -36,10 +36,101 @@
 1779568970 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
 	"fuentes.h"
 
+1779568970 ated upstream
+
 1779566181 source:c:\users\administrator\desktop\prog\tetris\dibujos.c
 	"dibujos.h"
 	"GBT/gbt.h"
 
 1779565108 c:\users\administrator\desktop\prog\tetris\dibujos.h
 	<stdint.h>
+
+1779565108 
+
+1779763480 source:c:\users\franco\documents\github\tetris\fuentes.c
+	"fuentes.h"
+
+1779895376 c:\users\franco\documents\github\tetris\fuentes.h
+	<stdint.h>
+	"GBT/gbt.h"
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt.h
+	"gbt_entrada.h"
+	"gbt_graficos.h"
+	"gbt_logger.h"
+	"gbt_temporizador.h"
+	"gbt_vector.h"
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt_entrada.h
+	<stdint.h>
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt_graficos.h
+	<stdint.h>
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt_logger.h
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt_temporizador.h
+	<stdint.h>
+
+1779748104 c:\users\franco\documents\github\tetris\include\gbt\gbt_vector.h
+	<stdlib.h>
+	<stdint.h>
+
+1779899848 source:c:\users\franco\documents\github\tetris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"GBT/gbt.h"
+	"fuentes.h"
+	"dibujos.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+
+1779759472 shed changes
+
+1779763480 source:c:\users\franco\documents\github\tetris\dibujos.c
+	"dibujos.h"
+	"GBT/gbt.h"
+
+1779763480 c:\users\franco\documents\github\tetris\dibujos.h
+	<stdint.h>
+
+1779881353 c:\users\franco\documents\github\tetris\tablero.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"pieza.h"
+
+1779898582 source:c:\users\franco\documents\github\tetris\tablero.c
+	<stdlib.h>
+	<string.h>
+	"tablero.h"
+	"GBT/gbt.h"
+
+1779897997 c:\users\franco\documents\github\tetris\pieza.h
+	<stdint.h>
+
+1779880856 c:\users\franco\documents\github\tetris\config.h
+	<stdint.h>
+
+1779895369 c:\users\franco\documents\github\tetris\estadisticas.h
+	<stdint.h>
+
+1779897973 source:c:\users\franco\documents\github\tetris\pieza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pieza.h"
+
+1779893656 source:c:\users\franco\documents\github\tetris\config.c
+	<stdio.h>
+	<string.h>
+	"config.h"
+
+1779893658 source:c:\users\franco\documents\github\tetris\estadisticas.c
+	<stdio.h>
+	<string.h>
+	"estadisticas.h"
 
