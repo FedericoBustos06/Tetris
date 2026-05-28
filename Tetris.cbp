@@ -53,9 +53,21 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="fuentes.h" />
+		<Unit filename="funciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="nombre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nombre.h" />
 		<Unit filename="pieza.c">
 			<Option compilerVar="CC" />
 		</Unit>

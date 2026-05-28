@@ -152,14 +152,13 @@ static void dibujar_bloque_borde(int px, int py, int tam, uint8_t color, uint8_t
 
 void pintar_tablero(const Tablero* t, int origen_x, int origen_y, int tam_bloque){
     int fila, col;
-
     for (fila = FILAS_OCULTAS; fila < t->alto; fila++) {//pintamos a partir de las visibles
         for (col = 0; col < t->ancho; col++) {
             int px = origen_x + col * tam_bloque;
             int py = origen_y + (fila - FILAS_OCULTAS) * tam_bloque;
             uint8_t color = (uint8_t)t->celdas[fila][col];
             if (color != 0) {
-                dibujar_bloque_borde(px, py, tam_bloque, color, 0);
+                dibujar_bloque_borde(px, py, tam_bloque, color, 8);
             } else {
                 dibujar_bloque(px, py, tam_bloque, 7);//la vacia la pintamos de gris oscuro
             }

@@ -1,11 +1,19 @@
 # depslib dependency file v1.0
-1779760883 source:c:\users\administrator\desktop\prog\tetris\main.c
+1779935772 source:c:\users\administrator\desktop\prog\tetris\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	<time.h>
 	"GBT/gbt.h"
 	"fuentes.h"
 	"dibujos.h"
-	<time.h>
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+	"menu.h"
+	"nombre.h"
+	"funciones.h"
 
 1776646998 c:\users\administrator\desktop\prog\tetris\include\gbt\gbt.h
 	"gbt_entrada.h"
@@ -29,11 +37,11 @@
 	<stdlib.h>
 	<stdint.h>
 
-1778810291 c:\users\administrator\desktop\prog\tetris\fuentes.h
+1779901669 c:\users\administrator\desktop\prog\tetris\fuentes.h
 	<stdint.h>
 	"GBT/gbt.h"
 
-1779568970 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
+1779926075 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
 	"fuentes.h"
 
 1779568970 ated upstream
@@ -133,4 +141,68 @@
 	<stdio.h>
 	<string.h>
 	"estadisticas.h"
+
+1779932701 source:c:\users\administrator\desktop\prog\tetris\config.c
+	"GBT/gbt.h"
+	"config.h"
+	"string.h"
+	"funciones.h"
+	"dibujos.h"
+	"fuentes.h"
+	<stdio.h>
+	<string.h>
+
+1779932706 c:\users\administrator\desktop\prog\tetris\config.h
+	<stdint.h>
+
+1779901669 source:c:\users\administrator\desktop\prog\tetris\estadisticas.c
+	<stdio.h>
+	<string.h>
+	"estadisticas.h"
+
+1779901669 c:\users\administrator\desktop\prog\tetris\estadisticas.h
+	<stdint.h>
+
+1779901669 c:\users\administrator\desktop\prog\tetris\tablero.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"pieza.h"
+
+1779901669 c:\users\administrator\desktop\prog\tetris\pieza.h
+	<stdint.h>
+
+1779931943 source:c:\users\administrator\desktop\prog\tetris\pieza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pieza.h"
+
+1779930652 source:c:\users\administrator\desktop\prog\tetris\tablero.c
+	<stdlib.h>
+	<string.h>
+	"tablero.h"
+	"GBT/gbt.h"
+
+1779903704 source:c:\users\administrator\desktop\prog\tetris\funciones.c
+	"GBT/gbt.h"
+	"funciones.h"
+
+1779903671 c:\users\administrator\desktop\prog\tetris\funciones.h
+
+1779911342 c:\users\administrator\desktop\prog\tetris\menu.h
+
+1779935805 source:c:\users\administrator\desktop\prog\tetris\menu.c
+	"GBT/gbt.h"
+	"menu.h"
+	"funciones.h"
+	"fuentes.h"
+	"dibujos.h"
+	"config.h"
+
+1779930038 source:c:\users\administrator\desktop\prog\tetris\nombre.c
+	"GBT/gbt.h"
+	"nombre.h"
+	"fuentes.h"
+
+1779917255 c:\users\administrator\desktop\prog\tetris\nombre.h
 
