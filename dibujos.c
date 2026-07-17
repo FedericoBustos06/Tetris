@@ -164,7 +164,7 @@ const uint8_t borde_lr[10][10] = {
     {1,1,1,1,1,1,1,1,1,1},
 };
 
-void dibujar_elemento(const uint8_t *matriz, uint16_t ancho, uint16_t alto, uint16_t posX, uint16_t posY, uint8_t color_indice) {
+void dibujar_elemento(const uint8_t* matriz, uint16_t ancho, uint16_t alto, uint16_t posX, uint16_t posY, uint8_t color_indice) {
     for (uint16_t y = 0; y < alto; y++) {
         for (uint16_t x = 0; x < ancho; x++) {
             uint8_t pixel = matriz[y * ancho + x];

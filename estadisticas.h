@@ -23,7 +23,7 @@ void stats_cargar(Estadisticas* e);
 
 void stats_guardar(const Estadisticas* e);
 
-RegistroJugador* stats_obtener_jugador(Estadisticas* e, const char* nombre);
+RegistroJugador* stats_obtener_jugador(Estadisticas* e, const char *nombre);
 
 void stats_actualizar(Estadisticas* e, const char* nombre, uint32_t puntaje, uint32_t lineas);
 

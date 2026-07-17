@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1779935772 source:c:\users\administrator\desktop\prog\tetris\main.c
+1781294926 source:c:\users\administrator\desktop\prog\tetris\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -14,6 +14,7 @@
 	"menu.h"
 	"nombre.h"
 	"funciones.h"
+	"juego.h"
 
 1776646998 c:\users\administrator\desktop\prog\tetris\include\gbt\gbt.h
 	"gbt_entrada.h"
@@ -41,7 +42,7 @@
 	<stdint.h>
 	"GBT/gbt.h"
 
-1779926075 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
+1780337382 source:c:\users\administrator\desktop\prog\tetris\fuentes.c
 	"fuentes.h"
 
 1779568970 ated upstream
@@ -142,7 +143,7 @@
 	<string.h>
 	"estadisticas.h"
 
-1779932701 source:c:\users\administrator\desktop\prog\tetris\config.c
+1781057565 source:c:\users\administrator\desktop\prog\tetris\config.c
 	"GBT/gbt.h"
 	"config.h"
 	"string.h"
@@ -152,7 +153,7 @@
 	<stdio.h>
 	<string.h>
 
-1779932706 c:\users\administrator\desktop\prog\tetris\config.h
+1781057408 c:\users\administrator\desktop\prog\tetris\config.h
 	<stdint.h>
 
 1779901669 source:c:\users\administrator\desktop\prog\tetris\estadisticas.c
@@ -163,35 +164,41 @@
 1779901669 c:\users\administrator\desktop\prog\tetris\estadisticas.h
 	<stdint.h>
 
-1779901669 c:\users\administrator\desktop\prog\tetris\tablero.h
+1781118337 c:\users\administrator\desktop\prog\tetris\tablero.h
 	<stdint.h>
 	"GBT/gbt.h"
 	"pieza.h"
+	"config.h"
 
-1779901669 c:\users\administrator\desktop\prog\tetris\pieza.h
+1781295470 c:\users\administrator\desktop\prog\tetris\pieza.h
 	<stdint.h>
 
-1779931943 source:c:\users\administrator\desktop\prog\tetris\pieza.c
+1781295508 source:c:\users\administrator\desktop\prog\tetris\pieza.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"pieza.h"
+	"time.h"
 
-1779930652 source:c:\users\administrator\desktop\prog\tetris\tablero.c
+1781119233 source:c:\users\administrator\desktop\prog\tetris\tablero.c
 	<stdlib.h>
 	<string.h>
 	"tablero.h"
 	"GBT/gbt.h"
 
-1779903704 source:c:\users\administrator\desktop\prog\tetris\funciones.c
+1781046991 source:c:\users\administrator\desktop\prog\tetris\funciones.c
 	"GBT/gbt.h"
+	"stdio.h"
 	"funciones.h"
+	"config.h"
 
-1779903671 c:\users\administrator\desktop\prog\tetris\funciones.h
+1781045352 c:\users\administrator\desktop\prog\tetris\funciones.h
+	"config.h"
 
-1779911342 c:\users\administrator\desktop\prog\tetris\menu.h
+1781056735 c:\users\administrator\desktop\prog\tetris\menu.h
+	"config.h"
 
-1779935805 source:c:\users\administrator\desktop\prog\tetris\menu.c
+1781057217 source:c:\users\administrator\desktop\prog\tetris\menu.c
 	"GBT/gbt.h"
 	"menu.h"
 	"funciones.h"
@@ -199,10 +206,469 @@
 	"dibujos.h"
 	"config.h"
 
-1779930038 source:c:\users\administrator\desktop\prog\tetris\nombre.c
+1781106959 source:c:\users\administrator\desktop\prog\tetris\nombre.c
 	"GBT/gbt.h"
 	"nombre.h"
 	"fuentes.h"
+	"config.h"
 
-1779917255 c:\users\administrator\desktop\prog\tetris\nombre.h
+1781106759 c:\users\administrator\desktop\prog\tetris\nombre.h
+	"config.h"
+
+1781295532 source:c:\users\administrator\desktop\prog\tetris\juego.c
+	"GBT/gbt.h"
+	"juego.h"
+	"fuentes.h"
+	"dibujos.h"
+	"funciones.h"
+	<stdio.h>
+
+1781289609 c:\users\administrator\desktop\prog\tetris\juego.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+
+1781057565 source:c:\users\administrator\documents\prog\tetris\config.c
+	"GBT/gbt.h"
+	"config.h"
+	"string.h"
+	"funciones.h"
+	"dibujos.h"
+	"fuentes.h"
+	<stdio.h>
+	<string.h>
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt.h
+	"gbt_entrada.h"
+	"gbt_graficos.h"
+	"gbt_logger.h"
+	"gbt_temporizador.h"
+	"gbt_vector.h"
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt_entrada.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt_graficos.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt_logger.h
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt_temporizador.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\documents\prog\tetris\include\gbt\gbt_vector.h
+	<stdlib.h>
+	<stdint.h>
+
+1781057408 c:\users\administrator\documents\prog\tetris\config.h
+	<stdint.h>
+
+1781045352 c:\users\administrator\documents\prog\tetris\funciones.h
+	"config.h"
+
+1779565108 c:\users\administrator\documents\prog\tetris\dibujos.h
+	<stdint.h>
+
+1779901669 c:\users\administrator\documents\prog\tetris\fuentes.h
+	<stdint.h>
+	"GBT/gbt.h"
+
+1779566181 source:c:\users\administrator\documents\prog\tetris\dibujos.c
+	"dibujos.h"
+	"GBT/gbt.h"
+
+1779901669 source:c:\users\administrator\documents\prog\tetris\estadisticas.c
+	<stdio.h>
+	<string.h>
+	"estadisticas.h"
+
+1779901669 c:\users\administrator\documents\prog\tetris\estadisticas.h
+	<stdint.h>
+
+1780337382 source:c:\users\administrator\documents\prog\tetris\fuentes.c
+	"fuentes.h"
+
+1781046991 source:c:\users\administrator\documents\prog\tetris\funciones.c
+	"GBT/gbt.h"
+	"stdio.h"
+	"funciones.h"
+	"config.h"
+
+1783727944 source:c:\users\administrator\documents\prog\tetris\juego.c
+	"GBT/gbt.h"
+	"juego.h"
+	"fuentes.h"
+	"dibujos.h"
+	"funciones.h"
+	<stdio.h>
+
+1783726922 c:\users\administrator\documents\prog\tetris\juego.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+
+1781118337 c:\users\administrator\documents\prog\tetris\tablero.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"pieza.h"
+	"config.h"
+
+1781297330 c:\users\administrator\documents\prog\tetris\pieza.h
+	<stdint.h>
+
+1783728442 source:c:\users\administrator\documents\prog\tetris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"GBT/gbt.h"
+	"fuentes.h"
+	"dibujos.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+	"menu.h"
+	"nombre.h"
+	"funciones.h"
+	"juego.h"
+
+1781056735 c:\users\administrator\documents\prog\tetris\menu.h
+	"config.h"
+
+1781106759 c:\users\administrator\documents\prog\tetris\nombre.h
+	"config.h"
+
+1781057217 source:c:\users\administrator\documents\prog\tetris\menu.c
+	"GBT/gbt.h"
+	"menu.h"
+	"funciones.h"
+	"fuentes.h"
+	"dibujos.h"
+	"config.h"
+
+1781106959 source:c:\users\administrator\documents\prog\tetris\nombre.c
+	"GBT/gbt.h"
+	"nombre.h"
+	"fuentes.h"
+	"config.h"
+
+1783724812 source:c:\users\administrator\documents\prog\tetris\tablero.c
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"tablero.h"
+	"GBT/gbt.h"
+
+1781297307 source:c:\users\administrator\documents\prog\tetris\pieza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pieza.h"
+	"time.h"
+
+1781057565 source:c:\users\carolina bustos\desktop\fedeee\tetris\config.c
+	"GBT/gbt.h"
+	"config.h"
+	"string.h"
+	"funciones.h"
+	"dibujos.h"
+	"fuentes.h"
+	<stdio.h>
+	<string.h>
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt.h
+	"gbt_entrada.h"
+	"gbt_graficos.h"
+	"gbt_logger.h"
+	"gbt_temporizador.h"
+	"gbt_vector.h"
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt_entrada.h
+	<stdint.h>
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt_graficos.h
+	<stdint.h>
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt_logger.h
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt_temporizador.h
+	<stdint.h>
+
+1776646998 c:\users\carolina bustos\desktop\fedeee\tetris\include\gbt\gbt_vector.h
+	<stdlib.h>
+	<stdint.h>
+
+1781057408 c:\users\carolina bustos\desktop\fedeee\tetris\config.h
+	<stdint.h>
+
+1781045352 c:\users\carolina bustos\desktop\fedeee\tetris\funciones.h
+	"config.h"
+
+1779565108 c:\users\carolina bustos\desktop\fedeee\tetris\dibujos.h
+	<stdint.h>
+
+1779901669 c:\users\carolina bustos\desktop\fedeee\tetris\fuentes.h
+	<stdint.h>
+	"GBT/gbt.h"
+
+1779566181 source:c:\users\carolina bustos\desktop\fedeee\tetris\dibujos.c
+	"dibujos.h"
+	"GBT/gbt.h"
+
+1779901669 source:c:\users\carolina bustos\desktop\fedeee\tetris\estadisticas.c
+	<stdio.h>
+	<string.h>
+	"estadisticas.h"
+
+1779901669 c:\users\carolina bustos\desktop\fedeee\tetris\estadisticas.h
+	<stdint.h>
+
+1783978943 source:c:\users\carolina bustos\desktop\fedeee\tetris\fuentes.c
+	"fuentes.h"
+
+1781046991 source:c:\users\carolina bustos\desktop\fedeee\tetris\funciones.c
+	"GBT/gbt.h"
+	"stdio.h"
+	"funciones.h"
+	"config.h"
+
+1784071396 source:c:\users\carolina bustos\desktop\fedeee\tetris\juego.c
+	"GBT/gbt.h"
+	"juego.h"
+	"fuentes.h"
+	"dibujos.h"
+	"funciones.h"
+	"tablero.h"
+	<stdio.h>
+
+1784067154 c:\users\carolina bustos\desktop\fedeee\tetris\juego.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+
+1783950604 c:\users\carolina bustos\desktop\fedeee\tetris\tablero.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"pieza.h"
+	"config.h"
+
+1781297330 c:\users\carolina bustos\desktop\fedeee\tetris\pieza.h
+	<stdint.h>
+
+1784072612 source:c:\users\carolina bustos\desktop\fedeee\tetris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"GBT/gbt.h"
+	"fuentes.h"
+	"dibujos.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+	"menu.h"
+	"nombre.h"
+	"funciones.h"
+	"juego.h"
+
+1784072411 c:\users\carolina bustos\desktop\fedeee\tetris\menu.h
+	"config.h"
+	"juego.h"
+
+1784072549 c:\users\carolina bustos\desktop\fedeee\tetris\nombre.h
+	"config.h"
+	"juego.h"
+
+1784072650 source:c:\users\carolina bustos\desktop\fedeee\tetris\menu.c
+	"GBT/gbt.h"
+	"menu.h"
+	"funciones.h"
+	"fuentes.h"
+	"dibujos.h"
+	"config.h"
+	<string.h>
+
+1784072540 source:c:\users\carolina bustos\desktop\fedeee\tetris\nombre.c
+	"GBT/gbt.h"
+	"nombre.h"
+	"fuentes.h"
+	"config.h"
+	<stdio.h>
+
+1781297307 source:c:\users\carolina bustos\desktop\fedeee\tetris\pieza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pieza.h"
+	"time.h"
+
+1783953251 source:c:\users\carolina bustos\desktop\fedeee\tetris\tablero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"tablero.h"
+	"GBT/gbt.h"
+	"funciones.h"
+
+1784303851 source:c:\users\administrator\downloads\s+\tetris\config.c
+	"GBT/gbt.h"
+	"config.h"
+	"string.h"
+	"funciones.h"
+	"dibujos.h"
+	"fuentes.h"
+	<stdio.h>
+	<string.h>
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt.h
+	"gbt_entrada.h"
+	"gbt_graficos.h"
+	"gbt_logger.h"
+	"gbt_temporizador.h"
+	"gbt_vector.h"
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt_entrada.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt_graficos.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt_logger.h
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt_temporizador.h
+	<stdint.h>
+
+1776646998 c:\users\administrator\downloads\s+\tetris\include\gbt\gbt_vector.h
+	<stdlib.h>
+	<stdint.h>
+
+1784303516 c:\users\administrator\downloads\s+\tetris\config.h
+	<stdint.h>
+
+1784243957 c:\users\administrator\downloads\s+\tetris\funciones.h
+	"config.h"
+
+1784243489 c:\users\administrator\downloads\s+\tetris\dibujos.h
+	<stdint.h>
+
+1784243522 c:\users\administrator\downloads\s+\tetris\fuentes.h
+	<stdint.h>
+	"GBT/gbt.h"
+
+1784244257 source:c:\users\administrator\downloads\s+\tetris\dibujos.c
+	"dibujos.h"
+	"GBT/gbt.h"
+
+1779901669 source:c:\users\administrator\downloads\s+\tetris\estadisticas.c
+	<stdio.h>
+	<string.h>
+	"estadisticas.h"
+
+1784243510 c:\users\administrator\downloads\s+\tetris\estadisticas.h
+	<stdint.h>
+
+1784302525 source:c:\users\administrator\downloads\s+\tetris\fuentes.c
+	"fuentes.h"
+
+1784303391 source:c:\users\administrator\downloads\s+\tetris\funciones.c
+	"GBT/gbt.h"
+	"stdio.h"
+	"funciones.h"
+	"config.h"
+
+1784302653 source:c:\users\administrator\downloads\s+\tetris\juego.c
+	"GBT/gbt.h"
+	"juego.h"
+	"fuentes.h"
+	"dibujos.h"
+	"funciones.h"
+	"tablero.h"
+	<stdio.h>
+
+1784257153 c:\users\administrator\downloads\s+\tetris\juego.h
+	<stdint.h>
+	"GBT/gbt.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+
+1784252512 c:\users\administrator\downloads\s+\tetris\tablero.h
+	<stdint.h>
+	<stdbool.h>
+	"GBT/gbt.h"
+	"pieza.h"
+	"config.h"
+
+1781297330 c:\users\administrator\downloads\s+\tetris\pieza.h
+	<stdint.h>
+
+1784303076 source:c:\users\administrator\downloads\s+\tetris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"GBT/gbt.h"
+	"fuentes.h"
+	"dibujos.h"
+	"tablero.h"
+	"pieza.h"
+	"config.h"
+	"estadisticas.h"
+	"menu.h"
+	"nombre.h"
+	"funciones.h"
+	"juego.h"
+
+1784243999 c:\users\administrator\downloads\s+\tetris\menu.h
+	"config.h"
+	"juego.h"
+
+1784244017 c:\users\administrator\downloads\s+\tetris\nombre.h
+	"config.h"
+	"juego.h"
+
+1784244621 source:c:\users\administrator\downloads\s+\tetris\menu.c
+	"GBT/gbt.h"
+	"menu.h"
+	"funciones.h"
+	"fuentes.h"
+	"dibujos.h"
+	"config.h"
+	<string.h>
+
+1784244657 source:c:\users\administrator\downloads\s+\tetris\nombre.c
+	"GBT/gbt.h"
+	"nombre.h"
+	"fuentes.h"
+	"config.h"
+	<stdio.h>
+
+1781297307 source:c:\users\administrator\downloads\s+\tetris\pieza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pieza.h"
+	"time.h"
+
+1784252502 source:c:\users\administrator\downloads\s+\tetris\tablero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"tablero.h"
+	"GBT/gbt.h"
+	"funciones.h"
 

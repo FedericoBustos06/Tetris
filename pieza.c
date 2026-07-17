@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include "pieza.h"
+#include "time.h"
+#define COLOR_PIEZA_BASE 13
 
-static const int plantillas[CANT_TIPOS_PIEZA][4][4] = {
+static const int plantillas[CANT_TIPOS_PIEZA][4][4] =
+{
     /* I */
     {
         {0,0,0,0},
@@ -55,46 +58,46 @@ static const int plantillas[CANT_TIPOS_PIEZA][4][4] = {
     }
 };
 
-#define COLOR_PIEZA_BASE 13
-
-Pieza crear_pieza(int tipo, int ancho_tablero){
+Pieza crear_pieza()
+{
     Pieza p;
-    p.tipo = tipo;
-    p.color = color_de_tipo(tipo);
-
-    p.x = ancho_tablero / 2 - 2;
-
+    p.tipo = (rand() % 7);
+    p.color = color_de_tipo(p.tipo);
+    p.x = 4;
     p.y = 0;
-    memcpy(p.matriz, plantillas[tipo], sizeof(p.matriz));
+    memcpy(p.matriz, plantillas[p.tipo], sizeof(p.matriz));
     return p;
 }
 
-Pieza spawn_random(int ancho_tablero){
-    return crear_pieza(rand() % CANT_TIPOS_PIEZA, ancho_tablero);
-}
-
-void rotar_pieza_derecha(Pieza* p){
+void rotar_pieza_derecha(Pieza* p)
+{
     int tmp[4][4];
     int i, j;
-    for (i = 0; i < 4; i++) {
-        for (j = 0; j < 4; j++) {
+    for (i = 0; i < 4; i++)
+    {
+        for (j = 0; j < 4; j++)
+        {
             tmp[j][3 - i] = p->matriz[i][j];
         }
     }
     memcpy(p->matriz, tmp, sizeof(tmp));
 }
 
-void rotar_pieza_izquierda(Pieza* p){
+void rotar_pieza_izquierda(Pieza* p)
+{
     int tmp[4][4];
     int i, j;
-    for (i = 0; i < 4; i++) {
-        for (j = 0; j < 4; j++) {
+    for (i = 0; i < 4; i++)
+    {
+        for (j = 0; j < 4; j++)
+        {
             tmp[3 - j][i] = p->matriz[i][j];
         }
     }
     memcpy(p->matriz, tmp, sizeof(tmp));
 }
 
-uint8_t color_de_tipo(int tipo){
-    return (uint8_t)(COLOR_PIEZA_BASE + tipo);
+uint8_t color_de_tipo(int tipo)
+{
+    return (uint8_t)(COLOR_PIEZA_BASE + 3 * tipo);
 }

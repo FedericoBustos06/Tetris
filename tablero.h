@@ -2,8 +2,10 @@
 #define TABLERO_H_INCLUDED
 
 #include <stdint.h>
+#include <stdbool.h>
 #include "GBT/gbt.h"
 #include "pieza.h"
+#include "config.h"
 
 #define FILAS_VISIBLES  20
 #define FILAS_OCULTAS   4
@@ -13,25 +15,27 @@
 typedef struct {
     int ancho;
     int alto;
-    int **celdas;
+    int8_t **celdas;
 } Tablero;
 
 Tablero* crear_tablero(int ancho, int alto);
 void     inicializar_tablero(Tablero* t);
 void     destruir_tablero(Tablero* t);
 
-int  pieza_es_valida(const Tablero* t, const Pieza* p, int dx, int dy);
+bool puede_moverse(const Tablero* t, const Pieza* p, int dx, int dy);
 
 void fijar_pieza(Tablero* t, const Pieza* p);
 
 int  limpiar_lineas(Tablero* t);
 
-int  tablero_game_over(const Tablero* t); // Devuelve 1 si alguna celda de las filas ocultas esta ocupada
+bool verificar_derrota(const Tablero* t);
 
-void pintar_tablero(const Tablero* t, int origen_x, int origen_y, int tam_bloque);
+void pintar_tablero(const Tablero* t, TipoResolucion resolucion);
 
-void pintar_pieza(const Pieza* p, int origen_x, int origen_y, int tam_bloque);
+void dibujar_mino(int posX, int posY, uint8_t colorMino, TipoResolucion resolucion);
 
-void pintar_sombra(const Tablero* t, const Pieza* p,int origen_x, int origen_y, int tam_bloque);
+void pintar_pieza(const Pieza* pieza, int posX, int posY, TipoResolucion resolucion);
+
+void pintar_sombra(const Tablero* t, const Pieza* pieza, uint8_t posX, uint8_t posY, TipoResolucion resolucion);
 
 #endif

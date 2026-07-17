@@ -13,6 +13,6 @@ extern const uint8_t borde_tr[10][10];
 extern const uint8_t borde_ll[10][10];
 extern const uint8_t borde_lr[10][10];
 
-void dibujar_elemento(const uint8_t *matriz, uint16_t ancho, uint16_t alto, uint16_t posX, uint16_t posY, uint8_t color_indice);
+void dibujar_elemento(const uint8_t* matriz, uint16_t ancho, uint16_t alto, uint16_t posX, uint16_t posY, uint8_t color_indice);
 
 #endif // DIBUJOS_H_INCLUDED

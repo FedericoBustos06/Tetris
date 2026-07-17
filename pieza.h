@@ -12,9 +12,7 @@ typedef struct {
     uint8_t color;
 } Pieza;
 
-Pieza crear_pieza(int tipo, int ancho_tablero);
-
-Pieza spawn_random(int ancho_tablero);
+Pieza crear_pieza();
 
 void rotar_pieza_derecha(Pieza* p);
 
